@@ -7,7 +7,7 @@ import Cart from './Component/Cart';
 import Login from './Component/Login';
 import {MyProvider} from './MyContext/MyProvider'
 function App() {
-  // ayyoooo
+  
   return (
     <div className="App">
     <MyProvider>

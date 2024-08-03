@@ -1,12 +1,10 @@
 import React , {useEffect, useState,useContext} from 'react'
-import { json } from 'react-router-dom'
 import { MyContext } from '../MyContext/MyProvider'
 import'../Styles/Addtocart.css'
 import { MdOutlineDeleteOutline } from "react-icons/md";
 import { IoIosAddCircleOutline } from "react-icons/io";
 import { CiCircleMinus } from "react-icons/ci";
 function Addtocart() {
-    // const [ data,setData]=useState([])
     const {item,setItem} = useContext(MyContext)
     const [totalAmt, setTotalAmt] = useState(0);
     const [totalItem,settotalItem] = useState(0)

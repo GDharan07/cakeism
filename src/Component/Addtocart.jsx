@@ -93,4 +93,3 @@ function Addtocart() {
 }
 
 export default Addtocart
-//export default Addtocart
